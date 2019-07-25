@@ -8,9 +8,9 @@ public class Main {
         System.out.println("Nhap so can doc:");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
-        System.out.println("nhap so "  + number);
 
-        switch (number) {
+
+        /*switch (number) {
             case 1:
                 System.out.println("one");
                 break;
@@ -39,15 +39,37 @@ public class Main {
                 System.out.println(" = nine");
                 break;
             case 16:
-                System.out.println(" = six"+"teen");
+                System.out.println(" = six" + "teen");
                 break;
             case 61:
-                System.out.println("six"+"ty _"+  "one ");
+                System.out.println("six" + "ty _" + "one ");
                 break;
 
             default:
                 System.out.println("out of ability");
 
+        }*/
+        switch (number) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+                System.out.println(" one, two ,three ,four, five, six, sven, eight, nine ");
+                break;
+            case 16:
+                System.out.println(" = six" + "teen");
+                break;
+            case 61:
+                System.out.println("six" + "ty _" + "one ");
+                break;
+
+            default:
+                System.out.println("out of ability");
 
         }
     }
